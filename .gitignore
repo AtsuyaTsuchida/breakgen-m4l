@@ -1,0 +1,12 @@
+# synthetic training data (regenerate with test/synth_dataset.py)
+data/
+# audio: test loops and renders (third-party breaks are not redistributed)
+*.wav
+*.aif
+*.aiff
+*.mp3
+# logs, local keys, caches
+*.log
+freesound_key.txt
+__pycache__/
+.DS_Store
